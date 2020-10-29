@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="signup.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script src="signup.js" defer></script>
+        <main>
+            <form id="signup-form">
+                <label for="email">Email:</label>
+                <input class="login-textbox" id="email" name="email" type="text"/>
+
+                <label for="email">Confirm Email:</label>
+                <input class="login-textbox" id="confirm-email" name="confirm-email" type="text"/>
+                
+                <label for="password">Password:</label>
+                <input class="login-textbox" id="password" name="password" type="text"/>
+
+                <label for="password">Confirm Password:</label>
+                <input class="login-textbox" id="confirm-password" name="confirm-password" type="text"/>
+
+                <input class="btn" id="signup-submit" type="button" value="Sign Up" onclick="signup()">
+
+                
+            </form>
+        </main>
+    </body>
+</html>
